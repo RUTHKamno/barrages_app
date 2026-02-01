@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (trop volumineux pour Git)
+data/train/
+data/test/
+data/predictions/
+data/dataset
+datasets/
+datasets/train/
+datasets/val/
+datasets_aumentados/train/
+datasets_aumentados/val/
+data/
+output_new/
+output_new/barrages/
+output_new/Covid/
+*.jpg
+*.jpeg
+*.png
+
+# Model files (trop volumineux)
+# models/*.keras
+models/*.h5
+models/*.pb
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# CSV/JSON outputs
+*.csv
+*.json
+*.ipynb
+!models/training_history.json
+
+# Reports
+*.pdf
+*.html
+reports/
