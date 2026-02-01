@@ -112,7 +112,7 @@ selected_class = None if class_filter == "Toutes" else class_filter
 with st.spinner("Chargement des images..."):
     images = load_dataset_images(dataset_type, selected_class, max_images)
 if not images:
-    st.warning("⚠️ Aucune image trouvée. Vérifiez que le dossier data/ contient des images.")
+    st.warning("⚠️Streamlit cloud ignore les dossiers lourd et les images des barrages etant assez lourd, nous corrigerons cete partie avec les mises a jour futures de streamlit.")
 else:
     st.success(f"✅ {len(images)} images chargées")
     
